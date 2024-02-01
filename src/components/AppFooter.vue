@@ -4,6 +4,17 @@ export default {
 }
 </script>
 
-<template></template>
+<template>
+    <footer>
+        <div>
+            <h1>ciao ciao</h1>
+        </div>
 
-<style scoped></style>
+    </footer>
+</template>
+
+<style scoped>
+h1 {
+    color: red;
+}
+</style>
