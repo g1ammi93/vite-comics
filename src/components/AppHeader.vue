@@ -87,7 +87,9 @@ export default {
     </header>
 </template>
 
-<style scoped>
+<style lang="scss" scoped>
+@use '../assets/scss/_variables.scss' as variables;
+
 header {
     background-color: white;
 }
@@ -102,7 +104,6 @@ div {
 ul {
     display: flex;
     gap: 30px;
-    list-style: none;
     font-weight: bold;
     text-transform: uppercase;
     font-size: small;
@@ -120,15 +121,16 @@ a {
 a.current {
     position: relative;
     text-decoration: none;
-}
 
-a.current::after {
-    content: '';
-    position: absolute;
-    left: 0;
-    bottom: -33px;
-    width: 100%;
-    height: 4px;
-    background-color: dodgerblue;
+    &::after {
+        content: '';
+        position: absolute;
+        left: 0;
+        bottom: -33px;
+        width: 100%;
+        height: 4px;
+        background-color: variables.$color;
+    }
+
 }
 </style>

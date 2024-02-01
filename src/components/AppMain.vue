@@ -15,7 +15,9 @@ export default {
     </main>
 </template>
 
-<style scoped>
+<style lang="scss" scoped>
+@use '../assets/scss/_variables.scss' as variables;
+
 main {
     background-color: black;
     height: 80px;
@@ -33,7 +35,7 @@ h1 {
 }
 
 .main-menu {
-    background-color: dodgerblue;
+    background-color: variables.$color;
     height: 120px;
 
 }

@@ -89,7 +89,9 @@ export default {
     </footer>
 </template>
 
-<style scoped>
+<style lang="scss" scoped>
+@use '../assets/scss/_variables.scss' as variables;
+
 h1 {
     color: red;
 }
@@ -109,7 +111,6 @@ h3 {
 
 ul {
     margin-top: 30px;
-    list-style: none;
 }
 
 .space-container {
@@ -135,12 +136,12 @@ button {
     padding: 10px;
     background-color: transparent;
     color: white;
-    border: 1px solid dodgerblue;
+    border: 1px solid variables.$color;
     cursor: pointer;
 }
 
 span {
-    color: dodgerblue;
+    color: variables.$color;
     text-wrap: nowrap;
 }
 
@@ -160,9 +161,5 @@ span {
     display: flex;
     gap: 10px;
     align-items: center;
-}
-
-a {
-    cursor: pointer;
 }
 </style>
