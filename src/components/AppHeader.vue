@@ -93,9 +93,7 @@ header {
 }
 
 div {
-    margin-top: 20px;
     height: 80px;
-    background-color: gray;
     display: flex;
     justify-content: space-between;
     align-items: center;
