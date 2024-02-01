@@ -5,7 +5,7 @@ import AppMain from './components/AppMain.vue'
 export default {
   name: 'ViteComics',
   components: {
-    AppHeader, AppMain
+    AppHeader, AppMain,
   }
 };
 </script>
