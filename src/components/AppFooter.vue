@@ -14,49 +14,49 @@ export default {
                             <li>
                                 <h3>DC COMICS</h3>
                             </li>
-                            <li><a>Characters</a></li>
-                            <li><a>Comics</a></li>
-                            <li><a>Movies</a></li>
-                            <li><a>Tv</a></li>
-                            <li><a>Games</a></li>
-                            <li><a>Videos</a></li>
-                            <li><a>News</a></li>
+                            <li><a href="#">Characters</a></li>
+                            <li><a href="#">Comics</a></li>
+                            <li><a href="#">Movies</a></li>
+                            <li><a href="#">Tv</a></li>
+                            <li><a href="#">Games</a></li>
+                            <li><a href="#">Videos</a></li>
+                            <li><a href="#">News</a></li>
 
                         </ul>
                         <ul>
                             <li>
                                 <h3>SHOP</h3>
                             </li>
-                            <li><a>Shop DC</a></li>
-                            <li><a>Shop DC Collectibles</a></li>
+                            <li><a href="#">Shop DC</a></li>
+                            <li><a href="#">Shop DC Collectibles</a></li>
                         </ul>
                     </div>
                     <ul class="col">
                         <li>
                             <h3>DC</h3>
                         </li>
-                        <li><a>Terms Of Use</a></li>
-                        <li><a>Privacy Policy (New)</a></li>
-                        <li><a>Ad Choices</a></li>
-                        <li><a>Advertising</a></li>
-                        <li><a>Jobs</a></li>
-                        <li><a>Subscriptions</a></li>
-                        <li><a>Talent Workshop</a></li>
-                        <li><a>CPSC Certificates</a></li>
-                        <li><a>Ratings</a></li>
-                        <li><a>Shop Help</a></li>
-                        <li><a>Contact Us</a></li>
+                        <li><a href="#">Terms Of Use</a></li>
+                        <li><a href="#">Privacy Policy (New)</a></li>
+                        <li><a href="#">Ad Choices</a></li>
+                        <li><a href="#">Advertising</a></li>
+                        <li><a href="#">Jobs</a></li>
+                        <li><a href="#">Subscriptions</a></li>
+                        <li><a href="#">Talent Workshop</a></li>
+                        <li><a href="#">CPSC Certificates</a></li>
+                        <li><a href="#">Ratings</a></li>
+                        <li><a href="#">Shop Help</a></li>
+                        <li><a href="#">Contact Us</a></li>
 
                     </ul>
                     <ul class="col">
                         <li>
                             <h3>SITES</h3>
                         </li>
-                        <li><a>DC</a></li>
-                        <li><a>Mad Magazine</a></li>
-                        <li><a>DC Kids</a></li>
-                        <li><a>DC Universe</a></li>
-                        <li><a>DC Power Visa</a></li>
+                        <li><a href="#">DC</a></li>
+                        <li><a href="#">Mad Magazine</a></li>
+                        <li><a href="#">DC Kids</a></li>
+                        <li><a href="#">DC Universe</a></li>
+                        <li><a href="#">DC Power Visa</a></li>
 
                     </ul>
 
@@ -76,11 +76,11 @@ export default {
             </div>
             <div class="social-media">
                 <span>FOLLOW US</span>
-                <a><img src="../assets/img/footer-facebook.png" alt="Facebook"></a>
-                <a><img src="../assets/img/footer-twitter.png" alt="Twitter"></a>
-                <a><img src="../assets/img/footer-youtube.png" alt="Youtube"></a>
-                <a><img src="../assets/img/footer-pinterest.png" alt="Pinterest"></a>
-                <a><img src="../assets/img/footer-periscope.png" alt="Periscope"> </a>
+                <a href="#"><img src="../assets/img/footer-facebook.png" alt="Facebook"></a>
+                <a href="#"><img src="../assets/img/footer-twitter.png" alt="Twitter"></a>
+                <a href="#"><img src="../assets/img/footer-youtube.png" alt="Youtube"></a>
+                <a href="#"><img src="../assets/img/footer-pinterest.png" alt="Pinterest"></a>
+                <a href="#"><img src="../assets/img/footer-periscope.png" alt="Periscope"> </a>
 
             </div>
 
@@ -90,10 +90,6 @@ export default {
 
 <style lang="scss" scoped>
 @use '../assets/scss/_variables.scss' as variables;
-
-h1 {
-    color: red;
-}
 
 .image-bkg {
     background-image: url('../assets/img/footer-bg.jpg');
@@ -129,6 +125,7 @@ ul {
 
 .img-dc {
     width: 380px;
+    margin-top: 10px;
 }
 
 button {
@@ -151,7 +148,7 @@ span {
 
 .lower-footer {
     height: 100px;
-    background-color: black;
+    background-color: rgb(48, 48, 48);
     display: flex;
     align-items: center;
 }
@@ -160,5 +157,9 @@ span {
     display: flex;
     gap: 10px;
     align-items: center;
+}
+
+a {
+    color: gray;
 }
 </style>
