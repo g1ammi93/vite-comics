@@ -15,49 +15,48 @@ export default {
                                 <h3>DC COMICS</h3>
                             </li>
                             <li><a>Characters</a></li>
-                            <li><a>Characters</a></li>
-                            <li><a>Characters</a></li>
-                            <li><a>Characters</a></li>
-                            <li><a>Characters</a></li>
-                            <li><a>Characters</a></li>
-                            <li><a>Characters</a></li>
+                            <li><a>Comics</a></li>
+                            <li><a>Movies</a></li>
+                            <li><a>Tv</a></li>
+                            <li><a>Games</a></li>
+                            <li><a>Videos</a></li>
+                            <li><a>News</a></li>
 
                         </ul>
                         <ul>
                             <li>
                                 <h3>SHOP</h3>
                             </li>
-                            <li><a>Characters</a></li>
-                            <li><a>Characters</a></li>
-
+                            <li><a>Shop DC</a></li>
+                            <li><a>Shop DC Collectibles</a></li>
                         </ul>
                     </div>
                     <ul class="col">
                         <li>
                             <h3>DC</h3>
                         </li>
-                        <li><a>Characters</a></li>
-                        <li><a>Characters</a></li>
-                        <li><a>Characters</a></li>
-                        <li><a>Characters</a></li>
-                        <li><a>Characters</a></li>
-                        <li><a>Characters</a></li>
-                        <li><a>Characters</a></li>
-                        <li><a>Characters</a></li>
-                        <li><a>Characters</a></li>
-                        <li><a>Characters</a></li>
-                        <li><a>Characters</a></li>
+                        <li><a>Terms Of Use</a></li>
+                        <li><a>Privacy Policy (New)</a></li>
+                        <li><a>Ad Choices</a></li>
+                        <li><a>Advertising</a></li>
+                        <li><a>Jobs</a></li>
+                        <li><a>Subscriptions</a></li>
+                        <li><a>Talent Workshop</a></li>
+                        <li><a>CPSC Certificates</a></li>
+                        <li><a>Ratings</a></li>
+                        <li><a>Shop Help</a></li>
+                        <li><a>Contact Us</a></li>
 
                     </ul>
                     <ul class="col">
                         <li>
                             <h3>SITES</h3>
                         </li>
-                        <li><a>Characters</a></li>
-                        <li><a>Characters</a></li>
-                        <li><a>Characters</a></li>
-                        <li><a>Characters</a></li>
-                        <li><a>Characters</a></li>
+                        <li><a>DC</a></li>
+                        <li><a>Mad Magazine</a></li>
+                        <li><a>DC Kids</a></li>
+                        <li><a>DC Universe</a></li>
+                        <li><a>DC Power Visa</a></li>
 
                     </ul>
 
