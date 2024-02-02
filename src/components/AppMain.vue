@@ -10,7 +10,7 @@ export default {
             <h1>--Content goes Here--</h1>
         </div>
         <div class="main-menu">
-
+            <h1 style="color: white">CICCIO</h1>
         </div>
     </main>
 </template>
@@ -20,7 +20,6 @@ export default {
 
 main {
     background-color: black;
-    height: 80px;
 }
 
 .content {
