@@ -1,16 +1,26 @@
 <script>
-export default {
+import BookCard from './books/BookCard.vue';
 
+export default {
+    name: 'AppMain',
+    props: {
+        books: Array
+    },
+    components: { BookCard }
 }
 </script>
 
 <template>
     <main>
         <div class="container content">
-            <h1>--Content goes Here--</h1>
+            <div class="card-container">
+                <BookCard v-for="book in books" :key="book.series" :image="book.thumb" :title="book.series" />
+
+            </div>
+
         </div>
         <div class="main-menu">
-            <h1 style="color: white">CICCIO</h1>
+
         </div>
     </main>
 </template>
@@ -23,7 +33,7 @@ main {
 }
 
 .content {
-    height: 80px;
+    min-height: 219px;
     display: flex;
     align-items: center;
 }
@@ -37,5 +47,15 @@ h1 {
     background-color: variables.$color;
     height: 120px;
 
+}
+
+.card-container {
+    display: flex;
+    flex-wrap: wrap;
+    margin: 30px 0;
+}
+
+.book-card {
+    flex-basis: 15%;
 }
 </style>
