@@ -21,9 +21,10 @@ export default {
     padding: 20px;
     background-color: transparent;
     border: lightblue;
-    height: 200px;
-    width: 200px;
+    height: 180px;
+    width: 180px;
     margin-bottom: 10px;
+
 
 }
 
@@ -43,5 +44,6 @@ img {
     object-fit: cover;
     object-position: top;
     cursor: pointer;
+
 }
 </style>

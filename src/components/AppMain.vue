@@ -19,6 +19,9 @@ export default {
             </div>
 
         </div>
+        <div class="flex-center">
+            <button>SIGN-UP NOW!</button>
+        </div>
         <div class="main-menu">
 
         </div>
@@ -57,5 +60,20 @@ h1 {
 
 .book-card {
     flex-basis: 15%;
+}
+
+button {
+    padding: 10px;
+    background-color: variables.$color;
+    color: white;
+    border: 1px solid variables.$color;
+    cursor: pointer;
+    margin-bottom: 15px;
+    text-align: center;
+}
+
+.flex-center {
+    display: flex;
+    justify-content: center;
 }
 </style>
