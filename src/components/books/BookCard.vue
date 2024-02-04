@@ -23,6 +23,7 @@ export default {
     border: lightblue;
     height: 200px;
     width: 200px;
+    margin-bottom: 10px;
 
 }
 
@@ -32,6 +33,7 @@ h3 {
     margin-top: 5px;
     font-weight: normal;
     text-transform: uppercase;
+    cursor: pointer;
 }
 
 img {
@@ -40,5 +42,6 @@ img {
     height: 100%;
     object-fit: cover;
     object-position: top;
+    cursor: pointer;
 }
 </style>
